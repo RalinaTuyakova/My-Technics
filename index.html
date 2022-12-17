@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Technics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="My Technics.js"></script>
+</head>
+<body>
+    <a name="home"></a>
+<div class="callback">
+    <div class="container">
+        <div class="callback-inner">
+            <img src="логотип.png" width="170px" height="120px" class="l1">
+            <nav class="header-menu">
+                <a href="#home" class="menu-link">Главная</a>
+                <a href="#best" class="menu-link">Преимущества</a>
+                <a href="#catalog" class="menu-link">Каталог</a>
+                <a href="#sale" class="menu-link">Акции</a>
+            </nav>
+            <a href="index1.html"><button class="callback-button" style="color: black;">Корзина</button></a>
+        </div>
+    </div>
+</div>
+<header>
+  <a name="sale"></a>
+<div class="slider">
+    <div class="item">
+      <img src="ad3.png">
+    </div>
+  
+    <div class="item">
+      <img src="ad2.png">
+    </div>
+  
+    <div class="item">
+      <img src="ad1.png">
+    </div>
+
+    <a class="previous" onclick="previousSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+            </header>
+    
+<div class="container1">   <a name="best"></a>
+    <h1 class="c1">Преимущества</h1>
+    <img src="класс.png" width="200px" height="200px" class="i1"/>
+    <img src="безопасность.png" width="200px" height="200px" class="i2"/>
+    <img src="цены.png" width="200px" height="200px" class="i3"/>
+    <h2 class="c2">Качество</h2>
+    <h4 class="c2">Все товары в нашем магазине оригинальны и имеют сертификаты качества</h4>
+    <h2 class="c3">Безопасность</h2>
+    <h4 class="c4">Мы даем гарантию на все наши товары, а также предоставляем рассрочку и кредит</h4>
+    <h2 class="c5">Цены</h2>
+    <h4 class="c6">Идеальное сочетание цены и качества</h4>
+</div>
+
+<h1 class ="c7">Каталог</h1><a name="catalog"></a>
+<div class="container2">
+    <div class="card">
+        <div class="card-header">
+          <img src="дайсон.png" alt="dyson" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Popular</span>
+          <h4>
+            Стайлер Dyson Airwrap
+          </h4>
+          <p>
+            40 000 &#8381;
+          </p>
+          <div class="user">
+            <img src="логотип2.png" alt="user" />
+            <div class="user-info">
+              <h5>Dyson</h5>
+              <small>2018</small>
+              <input type = "submit" onclick = "func1()" id="r1" value="add to cart" class="b1"> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="айфон.png" alt="iphone" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Popular</span>
+          <h4>
+            IPhone 13 Pro Max 1 ТБ
+          </h4>
+          <p>
+            75 000 &#8381;
+          </p>
+          <div class="user">
+            <img src="логотип2.png" alt="user" />
+            <div class="user-info">
+              <h5>Apple</h5>
+              <small>2021</small>
+              <input type = "submit" onclick = "func2()" id="r2" value="add to cart" class="b1"> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="imac.png" alt="imac" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Popular</span>
+          <h4>
+            iMac Pro Xeon W 8core
+          </h4>
+          <p>
+            550 000 &#8381;
+          </p>
+          <div class="user">
+            <img src="логотип2.png" alt="user" />
+            <div class="user-info">
+              <h5>Apple</h5>
+              <small>2021</small>
+              <input type = "submit" onclick = "func3()" id="r3" value="add to cart" class="b1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+          <div class="card-header">
+            <img src="macbook.png" alt="macbook" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">Popular</span>
+            <h4>
+                MacBook Pro A2338, 13.3", IPS, Apple M2 8 core 8ГБ, 512ГБ SSD, Mac OS
+            </h4>
+            <p>
+              350 000 &#8381;
+            </p>
+            <div class="user">
+              <img src="логотип2.png" alt="user" />
+              <div class="user-info">
+                <h5>Apple</h5>
+                <small>2022</small>
+                <input type = "submit" onclick = "func4()" id="r4" value="add to cart" class="b1">
+              </div>
+            </div>
+          </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <img src="наушники.png" alt="наушники" />
+  </div>
+  <div class="card-body">
+    <span class="tag tag-teal">Popular</span>
+    <h4>
+      Apple AirPods 3
+    </h4>
+    <p>
+      18 000 &#8381;
+    </p>
+    <div class="user">
+      <img src="логотип2.png" alt="user" />
+      <div class="user-info">
+        <h5>Apple</h5>
+        <small>2022</small>
+        <input type = "submit" onclick = "func5()" id="r5" value="add to cart" class="b1"> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <img src="ipad.png"/>
+  </div>
+  <div class="card-body">
+    <span class="tag tag-teal">Popular</span>
+    <h4>
+      Ipad air 2022
+    </h4>
+    <p>
+      42 000 &#8381;
+    </p>
+    <div class="user">
+      <img src="логотип2.png" alt="user" />
+      <div class="user-info">
+        <h5>Apple</h5>
+        <small>2022</small>
+        <input type = "submit" onclick = "func6()" id="r6" value="add to cart" class="b1">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <img src="apple watch.png" />
+  </div>
+  <div class="card-body">
+    <span class="tag tag-teal">Popular</span>
+    <h4>
+      Apple Watch Series 8
+    </h4>
+    <p>
+      45 000 &#8381;
+    </p>
+    <div class="user">
+      <img src="логотип2.png" alt="user" />
+      <div class="user-info">
+        <h5>Apple</h5>
+        <small>2022</small>
+        <input type = "submit" onclick = "func7()" id="r7" value="add to cart" class="b1">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+    <div class="card-header">
+      <img src="айфон14.png" />
+    </div>
+    <div class="card-body">
+      <span class="tag tag-teal">Popular</span>
+      <h4>
+        Apple iPhone 14 Pro Max
+      </h4>
+      <p>
+        130 000 &#8381;
+      </p>
+      <div class="user">
+        <img src="логотип2.png" alt="user" />
+        <div class="user-info">
+          <h5>Apple</h5>
+          <small>2022</small>
+          <input type = "submit" onclick = "func8()" id="r8" value="add to cart" class="b1">
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+                    
+                  
+
+            <div class="footer"><a name="contacts"></a>
+                <h1 class="c13">Контакты</h1><a name="contacts"></a>
+                <img src="%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD.png" width="30px" height="30px" class= "i5"/>  
+             <h1 class="c17">8-800-555-35-35</h1>
+<img src="%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D1%8F.png" width="25 px" height="25px" class= "i6"/> 
+             <h1 class="c17">пл. Вокзальная, 13, Астрахань, Астраханская обл., 414753</h1>
+      <img src = "%D1%87%D0%B0%D1%81%D1%8B.png" width="30px" height="30px" class="i8"/>
+            <h1 class="c17">09:00–23:00</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22027.844632118355!2d48.02026717910154!3d46.35985240000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a9050a96014e31%3A0xd29b130ad5e4ec3e!2z0KLQvtGA0LPQvtCy0YvQuS3RgNCw0LfQstC70LXQutCw0YLQtdC70YzQvdGL0Lkg0YbQtdC90YLRgCDCq9Cv0YDQvNCw0YDQutCwwrs!5e0!3m2!1sru!2sru!4v1670660637767!5m2!1sru!2sru" width="600" height="250" style="border:0;" class="i4" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             <div class="c15">
+              <h1 class="c16">© All Rights Reserved - 2022</h1>
+             </div>
+      
+            </body>
+            </html>
